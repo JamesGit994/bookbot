@@ -10,7 +10,6 @@ def main():
     #print(count_char(book_in_string))
     new_dict = count_char(book_in_string)
     sorted_list = dict_sorting(new_dict)
-    del sorted_list[" "]
     
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
