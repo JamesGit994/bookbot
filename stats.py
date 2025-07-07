@@ -12,3 +12,10 @@ def count_char(book_string):
         else:
             char_count[i] = 1
     return char_count
+
+
+def dict_sorting(char_dict):
+    bobo = sorted(char_dict.items(), key=lambda x:x[1], reverse=True)
+    bob = dict(bobo)
+    #print(bob)
+    return bob
