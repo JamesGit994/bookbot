@@ -16,7 +16,6 @@ def count_char(book_string):
 
 
 def dict_sorting(char_dict):
-    bobo = sorted(char_dict.items(), key=lambda x:x[1], reverse=True)
-    bob = dict(bobo)
-    #print(bob)
-    return bob
+    sorting_items_in_new_list = sorted(char_dict.items(), key=lambda x:x[1], reverse=True)
+    changing_list_to_dict = dict(sorting_items_in_new_list)
+    return changing_list_to_dict

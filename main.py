@@ -13,7 +13,6 @@ def main():
     book_in_string = get_book_text(path)
     list_string = book_in_string.split()
     word_count = len(list_string)
-    #print(count_char(book_in_string))
     new_dict = count_char(book_in_string)
     sorted_list = dict_sorting(new_dict)
     
